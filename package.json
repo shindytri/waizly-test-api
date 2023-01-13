@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "Project for testing nodejs (learning purpose)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start" : "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "Shindy Trimaria Laxmi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^6.13.0",
+    "validator": "^13.7.0"
+  }
+}
